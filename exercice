@@ -1,0 +1,140 @@
+Page 2
+
+Exercice
+1.
+Déclarez une variable en utilisant const nommée hobbies et définissez-la égale à un tableau contenant trois chaînes.
+
+2.
+Utilisez console.log() pour imprimer les passe-temps sur la console. 
+
+Page 3
+
+1.
+Les éléments individuels des tableaux peuvent également être stockés dans des variables.
+
+Créez une variable nommée listItem et définissez-la égale au premier élément du tableau FamousSayings en utilisant la notation entre crochets ([]).
+
+Utilisez ensuite console.log() pour imprimer la variable listItem sur la console.
+
+2.
+Maintenant, console.log () le troisième élément du tableau FamousSayings en utilisant la notation entre parenthèses pour accéder à l'élément.
+
+
+3.
+Génial, vous pouvez accéder à chaque élément d'un tableau en utilisant l'index. Mais que se passe-t-il si vous essayez d'accéder à un index qui se trouve au-delà du dernier élément ?
+
+Essayez de connecter l'élément à l'index [3] de FamousSayings à la console. Qu'est-ce qui est enregistré dans la console ?
+
+Exo page 4
+
+1.
+Remplacez le deuxième élément du tableau groceryList par 'avocados'. 
+
+Exo page 5 
+
+1.
+Sous les deux tableaux existants, réaffectez l'élément dans l'index 0 des condiments à 'Mayo'.
+
+Enregistrez le tableau mis à jour, les condiments, sur la console.
+
+2.
+Sous votre code de l'étape 1, réaffectez les condiments à un nouveau tableau contenant une seule chaîne ['Mayo']
+
+Enregistrez le résultat dans la console.
+
+Notez que vous pouvez réaffecter des éléments dans un tableau et réaffecter un nouveau tableau entier à une variable déclarée à l'aide du mot-clé let.
+
+3.
+Sous votre code de l'étape 2, réaffectez le dernier élément du tableau des ustensiles à 'Spoon'.
+
+Enregistrez le tableau mis à jour sur la console.
+
+Exo page 6
+
+1.
+Trouvez la longueur du tableau d'objectifs et enregistrez-le dans la console.
+
+Exo page 7 
+
+1.
+Ajoutez deux éléments au tableau des tâches en utilisant .push().
+
+2.
+Utilisez console.log pour imprimer votre tableau de tâches afin de vous assurer que vos éléments ont été ajoutés.
+
+Exo page 8
+
+1.
+Utilisez la méthode .pop() pour supprimer le dernier élément des tâches.
+
+2.
+Dans une ligne après avoir appelé les tâches.pop(), enregistrez les tâches dans la console pour vous assurer qu'elles fonctionnent.
+
+Exo page 9 
+
+1.
+Utilisez la méthode .shift() pour supprimer le premier élément du tableau epicerieList.
+
+Connectez la nouvelle epicerieList à la console.
+
+En savoir plus sur .shift() dans Docs.
+
+2.
+Sous le code ajouté à l'étape 1, utilisez la méthode .unshift() pour ajouter "popcorn" au début de votre liste d'épicerie.
+
+Après avoir appelé .unshift() sur epicerieList, enregistrez epicerieList sur la console.
+
+Vous souhaiterez peut-être supprimer l'instruction console.log() de l'étape précédente.
+En savoir plus sur .unshift() dans Docs.
+
+3.
+Vous êtes pressé alors vous décidez de demander à un ami de vous aider à faire vos courses. Vous voulez qu'il ramasse les « bananes », les « grains de café » et le « riz brun ».
+
+Sous le code que vous avez ajouté à l'étape 2, utilisez .slice() pour fournir à votre ami une liste de ces trois éléments.
+
+Connectez cette partie de la liste à la console. Contrairement aux deux points de contrôle précédents, vous devez effectuer ces deux étapes sur une seule ligne.
+En savoir plus sur .slice() dans Docs.
+
+4.
+Après avoir appelé .slice() sur epicerieList, connectez la liste d'épicerie à la console une fois de plus.
+
+Notez que le tableau epicerieList contient toujours les mêmes éléments qu'à l'étape 2. Cela signifie que .slice() ne change pas ! Vous pouvez le confirmer dans le lien de l'étape précédente.
+
+5.
+Trouvons l'index d'un élément particulier dans epicerieList en utilisant .indexOf().
+Appelez .indexOf() sur epicerieList pour trouver l'index de l'élément 'pasta' et enregistrez la valeur renvoyée dans une variable const nommée pastaIndex.
+
+Connectez ensuite pastaIndex à la console. (Vous pouvez supprimer les autres instructions console.log() pour désencombrer le terminal.)
+
+En savoir plus sur .indexOf() dans Docs.
+
+Exo page 10
+
+1.
+Dans main.js, il existe un concept de tableau. Il existe également une fonction changeArr qui affectera l'élément de l'index 3 d'un tableau à 'MUTATED'. La fonction changeArr a été appelée avec un argument de concept.
+
+Sous l'appel de fonction, connectez le concept à la console pour vérifier si cette réaffectation a muté le tableau.
+
+2.
+Vérifions ce qui se passe si nous mutons un tableau à l'aide d'une méthode intégrée à l'intérieur d'une fonction.
+
+Sous l'instruction console.log(), définissez une autre fonction nommée removeElement qui prend un paramètre de newArr. Dans le corps de la fonction, appelez .pop() sur newArr.
+
+3.
+Appelez removeElement() avec un argument de concept.
+
+4.
+Après avoir appelé removeElement(concept), vérifiez la valeur de concept en l'enregistrant sur la console.
+
+Notez que dans les deux cas, la modification du tableau a été maintenue en dehors de la fonction !
+
+Exo page 11
+
+1.
+Faisons un tableau imbriqué ! Créez une variable numberClusters. Attribuez comme valeur un tableau avec trois éléments de tableau.
+
+Le premier élément du tableau doit contenir les éléments 1 et 2 dans cet ordre.
+Le deuxième élément du tableau doit contenir les éléments 3 et 4 dans cet ordre.
+Le troisième élément du tableau doit contenir les éléments 5 et 6 dans cet ordre.
+2.
+Génial, vous avez créé un tableau imbriqué ! Déclarez maintenant une variable nommée cible à l'aide du mot-clé const et affectez-la pour accéder à l'élément 6 à l'intérieur de numberClusters.
